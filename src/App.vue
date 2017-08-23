@@ -35,7 +35,6 @@ img {
 }
 input[type='file']{
   outline: none;
-  margin-top: 20px;
 }
 *{
   margin: 0;
@@ -51,6 +50,9 @@ input[type='file']{
   border-radius: 2px;
   background: #1AAD19;
   color: #fff;
+}
+.btn_clicked{
+  background: #C0C0C0;
 }
 #cancel_clip{
   position: absolute;
