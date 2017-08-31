@@ -18,7 +18,7 @@ export default {
         this.clip(event , {
           resultObj : image,
           aspectRatio : 1,
-          compressRaTio : 10 //调整压缩比例 10代表90% 20代表80% ......
+          compressRaTio : 1 //调整压缩比例 0.5代表~=95% 0.1代表~=99% ......
         })
         this.hasImg = true;
     }

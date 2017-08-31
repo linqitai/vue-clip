@@ -5,6 +5,8 @@
 </template>
 
 <script>
+import Cropper from 'cropperjs'
+import Exif from 'exif-js'
 export default {
   name: 'app'
 }
@@ -46,10 +48,12 @@ input[type='file']{
   bottom: 20px;
   width: 80px;
   height: 40px;
+  line-height: 40px;
   border:none;
   border-radius: 2px;
   background: #1AAD19;
   color: #fff;
+  text-align: center;
 }
 .btn_clicked{
   background: #C0C0C0;

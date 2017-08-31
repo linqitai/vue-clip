@@ -311,6 +311,7 @@ export default {
       }
       // 进行最小压缩
       let ndata = canvas.toDataURL('image/jpeg', compressRaTio)
+      console.log('compressRaTio:' + compressRaTio)
       console.log('压缩前：' + initSize)
       console.log('压缩后：' + ndata.length)
       console.log('压缩率：' + ~~(100 * (initSize - ndata.length) / initSize) + '%')
